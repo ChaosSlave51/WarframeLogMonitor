@@ -31,8 +31,6 @@ namespace WarframeLogMonitor
         {
             base.EndInit();
             DisplayArea.Document.Blocks.Clear();
-            //InitialFileRead();
-            //WatchFile();
 
 
             DispatcherTimer timer = new DispatcherTimer();
@@ -70,53 +68,7 @@ namespace WarframeLogMonitor
             DisplayArea.ScrollToEnd();
 
         }
-       // private static FileStream _fileStream;
-        ///private static StreamReader _reader;
-        private void InitialFileRead()
-        {
-            var _fileStream = new FileStream(GetPath(), FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
-            using (var _reader=new StreamReader(_fileStream))
-            {
-                while (_reader.Peek() >= 0)
-                {
-                    var line = _reader.ReadLine();
-                    ProcessLine(line);
-
-                }
-            }
-        }
-        private static FileSystemWatcher watcher;
-        private void WatchFile()
-        {
-
-            watcher = new FileSystemWatcher();
-            watcher.Path = $"C:\\Users\\{Environment.UserName}\\AppData\\Local\\Warframe\\";
-            /* Watch for changes in LastAccess and LastWrite times, and 
-               the renaming of files or directories. */
-            watcher.NotifyFilter = NotifyFilters.LastWrite;               ;
-            watcher.Filter = "ee.log";
-
-            // Add event handlers.
-            watcher.Changed += new FileSystemEventHandler(OnFileChanged);
-
-            // Begin watching.
-            watcher.EnableRaisingEvents = true;
-        }
-
-        private void OnFileChanged(object sender, FileSystemEventArgs e)
-        {
-            DisplayArea.Document.Blocks.Clear();
-            var _fileStream = new FileStream(GetPath(), FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
-            using (var _reader = new StreamReader(_fileStream))
-            {
-                while (_reader.Peek() >= 0)
-                {
-                    var line = _reader.ReadLine();
-                    ProcessLine(line);
-
-                }
-            }
-        }
+     
 
         private void ProcessLine(string line)
         {
