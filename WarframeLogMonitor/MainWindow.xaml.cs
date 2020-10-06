@@ -120,7 +120,7 @@ namespace WarframeLogMonitor
 
         private void ProcessLine(string line)
         {
-            if (line.Contains("killed by"))
+            if (line.Contains("killed by")|| line.Contains("downed by"))
             {
                 AddLine(line);
             }

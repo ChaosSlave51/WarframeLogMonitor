@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WarframeLogMonitor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="WarFrame Death Note" Height="450" Width="800">
     <Grid>
         <RichTextBox x:Name="DisplayArea" HorizontalAlignment="Stretch" Margin="0,18,0,-0.286" VerticalAlignment="Stretch" IsReadOnly="True" RenderTransformOrigin="0.5,0.5">
             <RichTextBox.RenderTransform>
@@ -16,95 +16,7 @@
                     <TranslateTransform/>
                 </TransformGroup>
             </RichTextBox.RenderTransform>
-            <FlowDocument>
-                <Paragraph>
-                    <Run Text="1272.790 Game [Info]: OXYLUS was killed by 8 / 62 damage from a level 82 JUNO ELITE CREWMAN using a AiSupraRifle"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="1289.060 Game [Info]: RAZORFLIES was killed by 210 / 702 damage from a level 100 CORPUS WARDEN using a CrpHeavyRifle"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="1291.376 Game [Info]: RAZORFLIES was killed by 187 / 263 damage from a level 100 CORPUS WARDEN using a CrpHeavyRifle"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="1297.561 Game [Info]: Kromlech06 was killed by 96 / 106 damage from a level 84 JUNO JACTUS OSPREY using a ShipOspreyMineBurstGrenadeLauncher"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="1316.094 Game [Info]: Kromlech06 was killed by 77 / 105 damage from a level 98 JUNO ELITE CREWMAN using a AiSupraRifle"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="2397.498 Game [Info]: HELIOS was killed by 1,209 / 817 damage from a level 38 HYEKKA MASTER using a CatMasterPowerSuit"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="4941.427 Game [Info]: HELIOS was killed by 277 / 193 damage from a level 39 HYEKKA MASTER using a CatMasterPowerSuit"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="6994.370 Game [Info]: RAZORFLIES was killed by 5,280 / 5,340 damage from a level 100 GolemFullAvatar3613 using a GolemFullGrenadeWeapon"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="6994.371 Game [Info]: RAZORFLIES was killed by 5,280 / 5,340 damage from a level 100 GolemFullAvatar3613 using a GolemFullGrenadeWeapon"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="6994.371 Game [Info]: RAZORFLIES was killed by 5,280 / 5,340 damage from a level 100 GolemFullAvatar3613 using a GolemFullGrenadeWeapon"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="6994.371 Game [Info]: RAZORFLIES was killed by 5,280 / 5,340 damage from a level 100 GolemFullAvatar3613 using a GolemFullGrenadeWeapon"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="6994.371 Game [Info]: RAZORFLIES was killed by 5,280 / 5,340 damage from a level 100 GolemFullAvatar3613 using a GolemFullGrenadeWeapon"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="7060.112 Game [Info]: PhilTheGrinch was killed by 338 / 588 damage from a level 100 GolemFullAvatar3613 using a GolemFullMeleeWeapon"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="7068.996 Game [Info]: RAZORFLIES was killed by 181 / 504 damage from a level 97 LEAPER using a InfestedRunnerMeleeWeapon"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="7098.983 Game [Info]: RAZORFLIES was killed by 195 / 1,257 damage from a level 97 VOLATILE RUNNER"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="7098.983 Game [Info]: RAZORFLIES was killed by 195 / 1,257 damage from a level 97 VOLATILE RUNNER"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="7098.983 Game [Info]: RAZORFLIES was killed by 206 / 1,257 damage from a level 97 VOLATILE RUNNER"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="8708.587 Game [Info]: SMEETA KAVAT was killed by 50 / 136 damage from a level 40 OROKIN SENTRY using a SuperDroneRifle"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="8791.395 Game [Info]: CORRUPTED BUTCHER was killed by 103 / 144 damage from a level 40 CORRUPTED CREWMAN using a LaserShotgun"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="8884.904 Game [Info]: SMEETA KAVAT was killed by 50 / 140 damage from a level 41 CORRUPTED LANCER using a LaserRifle"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="8917.708 Game [Info]: SMEETA KAVAT was killed by 50 / 140 damage from a level 41 CORRUPTED LANCER using a LaserRifle"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="8933.324 Game [Info]: SMEETA KAVAT was killed by 50 / 140 damage from a level 41 CORRUPTED LANCER using a LaserRifle"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="9132.414 Game [Info]: SMEETA KAVAT was killed by 50 / 371 damage"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="9339.030 Game [Info]: SMEETA KAVAT was killed by 50 / 175 damage from a level 41 CORRUPTED LANCER using a LaserRifle"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="9374.000 Game [Info]: CORRUPTED BUTCHER was killed by 108 / 148 damage from a level 41 CORRUPTED LANCER using a LaserRifle"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="9377.591 Game [Info]: CORRUPTED CREWMAN was killed by 67 / 119 damage from a level 41 CORRUPTED CREWMAN using a LaserShotgun"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="9392.753 Game [Info]: CORRUPTED BUTCHER was killed by 6 / 148 damage from a level 41 CORRUPTED LANCER using a LaserRifle"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="9442.507 Game [Info]: SMEETA KAVAT was killed by 50 / 140 damage from a level 41 CORRUPTED LANCER using a LaserRifle"/>
-                </Paragraph>
-                <Paragraph>
-                    <Run Text="13407.981 Game [Info]: FRONTIER BUTCHER was killed by 32 / 42 damage from a KUBROW using a KubrowMeleeWeapon"/>
-                </Paragraph>
-            </FlowDocument>
+            <FlowDocument/>
         </RichTextBox>
 
     </Grid>
